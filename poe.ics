@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//POE Intelligence Service//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Path of Exile
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:poe-exilecon-livestream-2026-11-06@poe-intelligence
+DTSTAMP:20261031T120000Z
+SEQUENCE:1
+DTSTART:20261106T203000Z
+DTEND:20261106T220000Z
+SUMMARY:ExileCon 2026 Livestream und Keynote (PoE1 + PoE2)
+DESCRIPTION:Livestream-Start 12:30 PST (laut Post vom 29.10.2026)\, Keynote 13:00 PST. Das Ende ist nicht offiziell angegeben (Dauer geschaetzt). Twitch: twitch.tv/pathofexile\, YouTube: youtube.com/@playpathofexile. Quelle: https://www.pathofexile.com/forum/view-thread/4012155
+URL:https://www.pathofexile.com/forum/view-thread/4012155
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ExileCon-Livestream in 30 Minuten
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:poe-exilecon-2026@poe-intelligence
+DTSTAMP:20261031T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:ExileCon 2026 (Auckland\, Neuseeland)
+DESCRIPTION:Vor-Ort-Veranstaltung am 07. und 08.11.2026 (NZT). Keynote 10:00 NZT am 07.11.\, das entspricht 13:00 PST am 06.11. Quelle: https://www.pathofexile.com/forum/view-thread/4012171
+URL:https://www.pathofexile.com/forum/view-thread/4012171
+END:VEVENT
+BEGIN:VEVENT
+UID:poe1-league-end-allflame-2026-11-09@poe-intelligence
+DTSTAMP:20261031T120000Z
+SEQUENCE:0
+DTSTART:20261109T210000Z
+DTEND:20261109T220000Z
+SUMMARY:PoE1: Curse of the Allflame Challenge League Ende
+DESCRIPTION:Ende um 13:00 PST (22:00 MEZ). Dauer im Kalender nur symbolisch. Quelle: https://www.pathofexile.com/forum/view-thread/4010618
+URL:https://www.pathofexile.com/forum/view-thread/4010618
+END:VEVENT
+BEGIN:VEVENT
+UID:poe1-expansion-3-30-2026-11-13@poe-intelligence
+DTSTAMP:20261031T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:PoE1: 3.30 Expansion Release
+DESCRIPTION:Release am 13.11.2026 (PST)\, Uhrzeit nicht offiziell genannt. Ein League-Start wird in der Quelle nicht bestaetigt. Quelle: https://www.pathofexile.com/forum/view-thread/4010618
+URL:https://www.pathofexile.com/forum/view-thread/4010618
+END:VEVENT
+BEGIN:VEVENT
+UID:poe2-full-release-2026-12-11@poe-intelligence
+DTSTAMP:20261031T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:PoE2: 1.0 Full Release
+DESCRIPTION:Full Release am 11.12.2026 (PST)\, Uhrzeit nicht genannt. Quelle: https://www.pathofexile.com/forum/view-thread/3999366
+URL:https://www.pathofexile.com/forum/view-thread/3999366
+END:VEVENT
+END:VCALENDAR
